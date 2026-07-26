@@ -1,0 +1,12 @@
+# Ask the user their password
+password = input("Enter your secret password: ")
+
+# Remove spaces 
+password = password.strip()
+
+# Get the first and last latters 
+first_letter = password[0]
+last_letter = password[-1]
+                        
+# Print the password hint
+print(f"your password hint: It start with {first_letter.upper()} and ends with {last_letter.upper()}.")

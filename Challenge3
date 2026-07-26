@@ -1,0 +1,8 @@
+# South African Fuel Cost Calculator
+
+kilometers = float(input("How many kilometers do you want to drive? "))
+petrol_price = float(input("Enter the petrol price per liter (R): "))
+liters_needed = kilometers / 10
+total_cost = liters_needed * petrol_price
+print("Fuel needed:", liters_needed, "liters")
+print("Total travel cost: R", round(total_cost, 2))
